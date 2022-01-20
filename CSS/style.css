@@ -11,7 +11,7 @@
 .sidebar{
     /* background-color: red; */
     background-color: lightgray;
-    width: 14vw;
+    width: 175px;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -42,6 +42,7 @@
 .sidebar nav li a{
     
   text-decoration: none;
+  color: black;
     
 } 
 
