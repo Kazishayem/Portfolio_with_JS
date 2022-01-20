@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sidebar{
+    /* background-color: red; */
+    background-color: lightgray;
+    width: 14vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar nav{
+    
+    padding: 35px;
+    font-size: 12px;
+    
+}
+.sidebar nav ul{
+    list-style: none;
+    margin-top: 17px;
+    padding-left: 15px;
+    
+    /* margin-left: 10px; */
+
+   
+    
+}
+
+.sidebar nav li{
+    
+    padding: 10px 0;
+    font-weight: bold;
+    
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.InfoContainer{
+    background-color: rgb(230, 221, 221);
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+.hello{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    margin-top: 1px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+.work{
+    margin-top: 1px;
+}
+
+.buttons button{
+    margin-top: 5px;
+}
+.devPic img{
+    /* width: 418px; */
+    height: 90vh;
+    
+}
