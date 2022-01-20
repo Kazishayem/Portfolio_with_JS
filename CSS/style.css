@@ -39,6 +39,12 @@
     
 }
 
+.sidebar nav li a{
+    
+  text-decoration: none;
+    
+} 
+
 .main{
     /* background-color: yellow; */
     width: 90vw;
@@ -74,9 +80,23 @@
 .work{
     margin-top: 1px;
 }
+.buttons{
+    margin-top: 15px;
+}
 
 .buttons button{
-    margin-top: 5px;
+    border-radius: 20px;
+    padding: 7px;
+    /* border: cyan; */
+    color: white;
+    background-color: rgb(121, 141, 125);
+    font-weight: bold;
+    margin: 0 4px;
+    font-family: 'Poppins', sans-serif;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(121, 141, 125);
 }
 .devPic img{
     /* width: 418px; */
